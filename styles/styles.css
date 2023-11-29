@@ -21,7 +21,8 @@ a{
   }
   a.ins{
     position: absolute;
-    margin-left: -670px;
+    margin-left: -1000px;
+    margin-top: 40px;
   }
   a.link{
     position: absolute;
@@ -29,17 +30,23 @@ a{
   }
   a.em{
     position: absolute;
-    margin-left: -1000px;
+    margin-left: -920px;
+    margin-top: 40px ;  
+  }
+  hr{
+
+  border: 1px solid Black;
+  margin: 80px 0;
   }
  h1{
    position: absolute;
     width: 100%;
     top: 90px;
-    margin-left: -40px;
+    margin-left: -60px;
   } 
 p1{
   position: absolute;
-    margin-left: -40px;
+    margin-left: -60px;
     margin-top: 60px ;
   width: 100% ;
   }
