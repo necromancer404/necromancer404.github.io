@@ -2,45 +2,14 @@
  @import url(https://db.onlinewebfonts.com/c/860c3ec7bbc5da3e97233ccecafe512e?family=Circular+Std+Book);
 
 
-    nav {
-      background-color: #fff;
-      display: flex;
-      justify-content: space-around;
-      padding: 25px;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    }
 
-    nav a {
-      text-decoration: none;
-      color: #333;
-      padding: 10px;
-      border-radius: 5px;
-      transition: background-color 0.3s ease;
-    }
-
-.line {
-    border-bottom: 1px solid #333;
+hr{
+  border: 1px solid Black;
+  margin: 50px 0;
 }
 @media screen and (max-width: 600px) {
 
-    nav {
-      background-color: #fff;
-      display: flex;
-      justify-content: space-around;
-      padding: 20px;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    }
 
-    nav a {
-      text-decoration: none;
-      color: #333;
-      padding: 10px;
-      border-radius: 3px;
-    }
-
-.line {
-    border-bottom: 1px solid #333;
-}
 a{
     top: 10px;
 
@@ -66,11 +35,11 @@ a{
    position: absolute;
     width: 100%;
     top: 90px;
-    left: -50px;
+    margin-left: -40px;
   } 
 p1{
   position: absolute;
-    margin-left: -60px;
+    margin-left: -40px;
     margin-top: 60px ;
   width: 100% ;
   }
