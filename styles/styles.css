@@ -22,6 +22,25 @@
     border-bottom: 1px solid #333;
 }
 @media screen and (max-width: 600px) {
+
+    nav {
+      background-color: #fff;
+      display: flex;
+      justify-content: space-around;
+      padding: 20px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #333;
+      padding: 10px;
+      border-radius: 3px;
+    }
+
+.line {
+    border-bottom: 1px solid #333;
+}
 a{
     top: 10px;
 
@@ -46,7 +65,7 @@ a{
  h1{
    position: absolute;
     width: 100%;
-    top: 100px;
+    top: 90px;
     left: -50px;
   } 
 p1{
@@ -60,8 +79,7 @@ p1{
 
  h1 {
   position: absolute;
-  top: 130px;
-  padding: 20px 60px;
+  top: 130px; left: 70px;
   font-weight: normal;
   font-size: 33px;
 font-family: "Circular Std Black" ; 
