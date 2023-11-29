@@ -1,45 +1,77 @@
-h1 {
-  font-size: 40px;
-text-align: center;
-font-family: "CircularStd", "sans-serif", monospace;
+@import url(https://db.onlinewebfonts.com/c/f1a22f6f15d272c7aa56da8b2c91f5e5?family=Circular+Std+Black);
+ @import url(https://db.onlinewebfonts.com/c/860c3ec7bbc5da3e97233ccecafe512e?family=Circular+Std+Book);
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
 }
+header {
+    background-color: #fff;
+    padding: 2em;
+    text-align: center;
+}
+h1 {
+  margin-bottom: 0.5em;
+}
+.line {
+    border-bottom: 1px solid #333;
+}
+
+@media screen and (max-width: 600px) {
+  nav {
+    flex-direction: column;
+  }
+
+  nav a {
+    margin: 0.5em 0;
+  }
+}
+
  h2 {
   position: absolute;
   left: 130px;
   top: 100px;
-  font-size: 28px;
-font-family: "CircularStd", "sans-serif", monospace; 
+  font-weight: normal;
+  font-size: 33px;
+font-family: "Circular Std Black" ; 
 }
 p1 {
   position: absolute ;
   left : 130px;
   top: 250px;
-  font-size: 17px;
-  font-family: "CircularStd","book", monospace;
+  font-size: 18px;
+  font-family: "Circular Std Book" ;
 }
-.linklogo{
-  position : absolute;
-  left : 820px ;
-  top : 25px ;
+a{
+  font-size : 20px;
+  font-family: "Circular Std Black";
+  top :22px;
 }
 a.link{
   position : absolute;
-  left :850px;
-  top :30px;
+  left :900px;
   font-weight : bold;
   text-decoration : none;
-  color : inherit ;
+  color : #000000;
+}
+a.home{
+  position : absolute;
+  left : 100px;
+  font-weight: bold;
+  font-decoration: none; 
+  color: #000000;
 }
  a.ins {
   position: absolute;
-  left: 1000px;
-  top: 30px;
+  left: 1050px;
   font-weight: bold;
   text-decoration: none; 
-  color: inherit;
+  color: #000000;
 }
-.inslogo {
-  position: absolute;
-  left: 970px;
-  top :25px;
+a.em{
+  position : absolute;
+  left : 1200px;
+  font-weight : bold;
+  text-decoration: none;
+  color: #000000;
 }
