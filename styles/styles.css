@@ -1,12 +1,12 @@
 @font-face {
     font-family: 'Circular Std Black'; 
-    src: url('/home/necromancer/Documents/web/fonts/csb.ttf') format('woff2'), /* Modern browsers */
-         url('/home/necromancer/Documents/web/fonts/csb.ttf') format('woff'); /* Older browsers */
+    src: url('fonts/csb.ttf') format('woff2'), /* Modern browsers */
+         url('fonts/csb.ttf') format('woff'); /* Older browsers */
 }
 @font-face {
     font-family: 'Circular Std Book'; 
-    src: url('/home/necromancer/Documents/web/fonts/csbook.ttf') format('woff2'), /* Modern browsers */
-         url('/home/necromancer/Documents/web/fonts/csbook.ttf') format('woff'); /* Older browsers */
+    src: url('fonts/csbook.ttf') format('woff2'), /* Modern browsers */
+         url('fonts/csbook.ttf') format('woff'); /* Older browsers */
 }
 .my-box {
             width: 500px;
