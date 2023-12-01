@@ -10,24 +10,35 @@
 }
 .my-box {
             width: 500px;
-            height: 250px;
+            height: 350px;
             background-color: #f0f0f0;
-            border: 1px solid #ccc;
+            border: 3px solid #000000;
             padding: 10px;
             margin-left: 80px;
             margin-top: 300px;
+            text-align: center;
+            font-family: "Circular Std Book";
+            font-size: 22px;
+            font-decoration: none;
         }
+.mnml{
+  font-decoration: none;
+  text-decoration: none;
+  color: #000000;
 
+}
 .my-box2 {
+            font-family: "Circular Std Book";
+            font-size: 22px;
             width: 500px;
-            height: 250px;
+            height: 350px;
             background-color: #f0f0f0;
-            border: 1px solid #ccc;
+            border: 3px solid #000000;
             padding: 10px;
             margin-left: 750px;
-            margin-top: -272px;
+            margin-top: -374px;
+            text-align : center;
         }
-
 hr{
   border: 1px solid Black;
   margin: 50px 0;
@@ -35,6 +46,27 @@ hr{
 @media screen and (max-width: 600px) {
 
 
+.my-box {
+            width: 330px;
+            height: 350px;
+            background-color: #f0f0f0;
+            border: 3px solid #000000;
+            padding: 10px;
+            margin-left: 0px;
+            margin-top: 350px;
+        }
+.my-box2 {
+            font-family: "Circular Std Book";
+            font-size: 22px;
+            width: 330px;
+            height: 350px;
+            background-color: #f0f0f0;
+            border: 3px solid #000000;
+            padding: 10px;
+            margin-left:  0px;
+            margin-top: 44px;
+            text-align : center;
+        }
 a{
     top: 10px;
 
@@ -51,7 +83,7 @@ a{
   }
   a.link{
     position: absolute;
-    margin-left: -620px;
+    margin-left: -635px;
   }
   a.em{
     position: absolute;
