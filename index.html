@@ -17,6 +17,8 @@
     <header>
       <hr>
     </header>
+
+
       <div class ="top">
         <p9>
       Hey, I’m Hamza - A Computer Science Undergraduate.
@@ -28,6 +30,15 @@
 
     <a class="emal" href="mailto:mancer05@proton.me">mancer05@proton.me</a>
     </div>
+
+    <!-- spotify listening activity -->
+    <div id="userData" style="display: flex; align-items: center; font-family: Circular Std Book; margin-left: 4%;">
+      <img id="albumArt" src="" alt="Album Art" style="width: 50px; height: 50px; border-radius: 10px;">
+      <div id="spotifyInfo" style="margin-left: 10px;">
+          <!-- Display text next to the album art -->
+      </div>
+    </div>
+
     <div class="my-box">
       <p3>&nbsp&nbsp&nbsp  Writings.<br><br></p3>
       <p4>
@@ -36,6 +47,37 @@
 
       </p4>
     </div>
+
+  <script>
+      document.addEventListener('DOMContentLoaded', function() {
+          // Get the elements where you want to display the data
+          var albumArtElement = document.getElementById('albumArt');
+          var spotifyInfoElement = document.getElementById('spotifyInfo');
+
+          // Make a GET request to the Lanyard API
+          fetch('https://api.lanyard.rest/v1/users/784415728723951616')
+              .then(response => response.json())
+              .then(data => {
+                  // Display the specific data on the web page
+                  const spotifyData = data.data.spotify;
+
+                  // Set the source of the album art
+                  albumArtElement.src = spotifyData ? spotifyData.album_art_url : '';
+
+                  // Update the data in the spotifyInfoElement
+                  if(spotifyData){
+                    spotifyInfoElement.innerHTML = `<p>${spotifyData.artist} - ${spotifyData.song}</p>`;
+                  } else {
+                    spotifyInfoElement.innerHTML = `<p>Not playing anything</p>`;
+                  }
+              })
+              .catch(error => {
+                  // Display an error message on the web page
+                  spotifyInfoElement.innerHTML = `<p>Error fetching data: ${error}</p>`;
+              });
+      });
+  </script>
+
   </body>
   <footer>
     <hr>
