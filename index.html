@@ -63,7 +63,7 @@
                   const spotifyData = data.data.spotify;
 
                   // Set the source of the album art
-                  albumArtElement.src = spotifyData ? spotifyData.album_art_url : '';
+                  albumArtElement.src = spotifyData ? spotifyData.album_art_url :'https://i.imgur.com/3CESpwN.png';
 
                   // Update the data in the spotifyInfoElement
                   if(spotifyData){
