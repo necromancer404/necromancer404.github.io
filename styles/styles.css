@@ -177,7 +177,7 @@ hr{
 }
 
 /* Tablets in landscape mode*/
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 800px) and (max-width: 1200px) {
 
   #userData { 
     margin-top: 6%;
@@ -256,24 +256,24 @@ hr{
     }
     a.home{
       position: absolute;
-      margin-left: 0px;
+      margin-left:  0px;
     }
     a.ins{
       position: absolute;
-      margin-left: 0px;
+      margin-left: -160px;
     }
     a.link{
       position: absolute;
-      margin-left: -635px;
+      margin-left: -525px;
     }
     a.em{
       position: absolute;
-      margin-left: -480px;
+      margin-left: -550px;
     }
     hr{
 
     border: 1px solid Black;
-    margin: 50px 0;
+    margin: 45px 0;
     }
 }
 
