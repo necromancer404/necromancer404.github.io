@@ -9,22 +9,10 @@
     src: url('../fonts/csbook.ttf') format('woff2'), /* Modern browsers */
          url('../fonts/csbook.ttf') format('woff'); /* Older browsers */
 }
-/*
-.more{
-  width: 100px;
-  position: absolute;
-  margin-left: 990px ;
-  font-weight: bold;
-  font-family: "Circular Std Book";
-  font-size: 20px;
-  text-align: right;
-}
-*/
 .top {
             width: 500px;
             height: 100px;
             background-color: white;
-            border: 1px solid white;
             padding: 10px;
             margin-left: 50px;
             margin-top: 70px;
@@ -38,7 +26,6 @@
             width: 500px;
             height: 150px;
             background-color: white;
-            border: 1px solid white;
             padding: 10px;
             margin-left: 50px;
             margin-top: -10px;
@@ -103,7 +90,6 @@ hr{
               width: 320px;
               height: 150px;
               background-color: white;
-              border: 1px solid white;
               padding: 10px;
               margin-left:  0px;
               margin-top: -10px;
@@ -115,7 +101,6 @@ hr{
               width: 300px;
               height: 120px;
               background-color: white;
-              border: 1px solid white;
               padding: 10px;
               margin-left: 0px;
               margin-top: 70px;
@@ -145,7 +130,6 @@ hr{
   }
   .social-icons{
 
-              border : 1px solid white;
               height: 30px;
               text-align: right;
   }
@@ -201,7 +185,6 @@ hr{
               width: 520px;
               height: 150px;
               background-color: white;
-              border: 1px solid white;
               padding: 40px;
               margin-left:  0px;
               margin-top:  -100px;
@@ -213,7 +196,6 @@ hr{
               width: 600px;
               height: 120px;
               background-color: white;
-              border: 1px solid white;
               padding: 40px;
               margin-left: 0px;
               margin-top: 70px;
@@ -251,12 +233,10 @@ hr{
     text-align: center;
       width: 250px; height: 30px;
     margin-left: 10px;
-    border: 1px solid white;
 
   }
   .social-icons{
 
-              border : 1px solid white;
               height: 30px;
               text-align: right;
   }
@@ -309,7 +289,6 @@ hr{
               width: 520px;
               height: 150px;
               background-color: white;
-              border: 1px solid white;
               padding: 40px;
               margin-left:  0px;
               margin-top: -114px;
@@ -321,7 +300,6 @@ hr{
               width: 600px;
               height: 120px;
               background-color: white;
-              border: 1px solid white;
               padding: 40px;
               margin-left: 0px;
               margin-top: 70px;
@@ -361,12 +339,9 @@ hr{
     text-align: center;
       width: 250px; height: 30px;
     margin-left: 10px;
-    border: 1px solid white;
-
   }
   .social-icons{
 
-              border : 1px solid white;
               height: 30px;
               text-align: right;
   }
@@ -407,7 +382,6 @@ hr{
     border: 1px solid Black;
     margin: 50px 0;
     }
-  /* Your tablet-specific styles here */
 }
 
 
